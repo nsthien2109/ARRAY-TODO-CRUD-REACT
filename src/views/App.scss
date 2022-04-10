@@ -1,0 +1,142 @@
+
+.row {
+  display: flex;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+.App{
+  justify-content: space-between;
+  margin: 50px 30px;
+}
+
+.App .todo-container , .App .todos-list-container{
+  padding : 10px 15px;
+}
+
+.todo-form {
+  padding : 20px
+}
+
+
+.todo-form .form-control{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border : .5px solid green;
+  outline : none;
+  border-radius: 10px;
+}
+
+.todos-list .item-todo{
+  background-color : burlywood;
+  border-radius : 10px;
+  padding : 10px;
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
+}
+
+.todo-form .btn-submit{
+  width: 100%;
+  border: none;
+  cursor : pointer;
+  
+}
+
+.item-delete span{
+  cursor : pointer;
+
+}
+
+.todos-list .item-todo{
+  margin-bottom: 20px;
+}
+
+.todos-list .item-todo .item-content{
+  display : flex;
+  justify-content : start
+}
+
+.todos-list .item-todo .item-content p{
+  margin-right: 20px;
+}
+
+.item-delete {
+  span{
+    margin-right: 15px;
+  }
+}
+
+.item-container{
+  input{
+    padding: 7px;
+    margin: 3px;
+    border-radius: 10px;
+    border: .3px solid indigo;
+    outline: none;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
